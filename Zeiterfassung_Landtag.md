@@ -35,8 +35,8 @@ date: "2024-06-25"
 | Datum       | Tätigkeit                          | Stunden  |
 |-------------|------------------------------------|----------|
 | 2024-06-25  | Recherche                          | 2        |
-| 2024-06-26  | EL und NL überarneitet             | 2        |
-| 2024-06-27  | Tätigkeit                          | 3        |
+| 2024-06-26  | EL und NL überarbeitet             | 2        |
+| 2024-06-27  | Canva Präsentation                 | 3        |
 |             |                                    |          |
 
 ### Kiki Weber
@@ -52,7 +52,7 @@ date: "2024-06-25"
 |-------------|------------------------------------|----------|
 | 2024-06-25  | Vorbereitungen                     | 2        |
 | 2024-06-26  | Canva Präsentation                 | 2        |
-| 2024-06-27  | EL und NL überarneitet             | 2        |
+| 2024-06-27  | EL und NL überarbeitet             | 2        |
 |             |                                    |          |
 
 ### Lea Weißschuh
