@@ -19,7 +19,7 @@ date: "2024-06-25"
 | Datum       | Tätigkeit                          | Stunden  |
 |-------------|------------------------------------|----------|
 | 2024-06-25  | Recherche                          | 2        |
-| 2024-06-26  | EL und NL überarneitet             | 1        |
+| 2024-06-26  | EL und NL überarbeitet             | 1        |
 | 2024-06-27  | Canva Präsentation                 | 3        |
 |             |                                    |          |
 
