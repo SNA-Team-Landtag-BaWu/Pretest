@@ -18,9 +18,9 @@ date: "2024-06-25"
 ### Valeria Greco
 | Datum       | Tätigkeit                          | Stunden  |
 |-------------|------------------------------------|----------|
-| 2024-06-25  | Tätigkeit                          | 2        |
-| 2024-06-26  | Tätigkeit                          | 1        |
-| 2024-06-27  | Tätigkeit                          | 3        |
+| 2024-06-25  | Recherche                          | 2        |
+| 2024-06-26  | EL und NL überarneitet             | 1        |
+| 2024-06-27  | Canva Präsentation                 | 3        |
 |             |                                    |          |
 
 ### Timo Maier
@@ -29,31 +29,30 @@ date: "2024-06-25"
 | 2024-06-24  | Codebuch, EL, NL erstellen/bearb.  | 5        |
 | 2024-07-01  | Codebuch, NL bearb.                | 2        |
 |             | & Zeiterfassung erstellen          |          |
-| 2024-00-00  |                                    |          |
 |             |                                    |          |
 
 ### Christian Steinbach
 | Datum       | Tätigkeit                          | Stunden  |
 |-------------|------------------------------------|----------|
-| 2024-06-25  | Tätigkeit                          | 3        |
-| 2024-06-26  | Tätigkeit                          | 2        |
-| 2024-06-27  | Tätigkeit                          | 4        |
+| 2024-06-25  | Recherche                          | 2        |
+| 2024-06-26  | EL und NL überarneitet             | 2        |
+| 2024-06-27  | Tätigkeit                          | 3        |
 |             |                                    |          |
 
 ### Kiki Weber
 | Datum       | Tätigkeit                          | Stunden  |
 |-------------|------------------------------------|----------|
-| 2024-06-25  | Tätigkeit                          | 5        |
-| 2024-06-26  | Tätigkeit                          | 2        |
-| 2024-06-27  | Tätigkeit                          | 3        |
+| 2024-06-25  | EL und NL überarbeitet             | 2        |
+| 2024-06-26  | Vorbereitungen                     | 2        |
+| 2024-06-27  | Canva Präsentation                 | 3        |
 |             |                                    |          |
 
 ### Jasmin Weis
 | Datum       | Tätigkeit                          | Stunden  |
 |-------------|------------------------------------|----------|
-| 2024-06-25  | Vorbereitungen                     | 4        |
-| 2024-06-26  | Tätigkeit                          | 3        |
-| 2024-06-27  | Tätigkeit                          | 2        |
+| 2024-06-25  | Vorbereitungen                     | 2        |
+| 2024-06-26  | Canva Präsentation                 | 2        |
+| 2024-06-27  | EL und NL überarneitet             | 2        |
 |             |                                    |          |
 
 ### Lea Weißschuh
