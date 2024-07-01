@@ -1,0 +1,66 @@
+---
+title: "Pretest Landtag"
+author: "Timo Maier"
+output: html_document
+date: "2024-06-25"
+---
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = TRUE)
+
+# lädt die Programmbibliotheken
+library(tidyverse)
+library(tidygraph)
+library(igraph)
+```
+
+
+```{r Netzwerk_einlesen}
+
+# Einlesen der Edge- und Nodelist
+edges <- read.csv("https://raw.githubusercontent.com/SNA-Team-Landtag-BaWu/Pretest/main/Pretest%20-%20Edgelist.csv", header=T, as.is=T, sep = ",")
+nodes <- read.csv("https://raw.githubusercontent.com/SNA-Team-Landtag-BaWu/Pretest/main/Pretest%20-%20Nodelist.csv", header=T, as.is=T, sep = ",")
+
+# Matrix erstellen
+edgematrix <-as.matrix(edges)
+
+# Zusammenführen von Edge- und Nodelist als igraph-Objekt lt
+lt <- graph_from_data_frame(d=edgematrix, vertices=nodes, directed=T)
+
+# definiert für alle Abbildungen, dass die Pfeilspitzen klein sind
+E(lt)$arrow.size <- .2
+
+# als tidygraph umwandeln
+lt <- as_tbl_graph(lt)
+
+# Aufrufen der Netzwerks lt (LT für Landtag)
+lt
+```
+
+
+```{r Viusalisierung, fig.height=9, fig.width=16, message=FALSE, warning=FALSE, paged.print=FALSE}
+# Filtert Knoten ohne Verbindungen heraus
+lt_filtered <- lt %>% activate(nodes) %>% filter(degree(lt) > 0)
+
+# Knotengrößen festlegen, wobei nur Knoten mit type = 2 ihre Größe nach Degree anpassen
+node_sizes <- ifelse(V(lt_filtered)$type == 2, degree(lt_filtered) * 4, 5)  # Standardgröße 5 für Knoten mit type = 1
+
+# Knotenfarben basierend auf dem Party-Attribut festlegen
+node_colors <- case_when(
+  V(lt_filtered)$party == 1 ~ "green",
+  V(lt_filtered)$party == 2 ~ "black",
+  V(lt_filtered)$party == 3 ~ "red",
+  V(lt_filtered)$party == 4 ~ "yellow",
+  V(lt_filtered)$party == 5 ~ "blue",
+  TRUE ~ "gray"  # Standardfarbe, falls keine der Bedingungen zutrifft (= Organisationen)
+)
+
+# Visualisierung 
+plot(lt_filtered,
+     asp = 0,
+     vertex.size = node_sizes,
+     vertex.label.cex = 1.5,
+     vertex.color = node_colors,
+     main = "Verflechtungen der Mitglieder des Landtags (Pretest)")
+```
