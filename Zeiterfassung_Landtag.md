@@ -59,7 +59,7 @@ date: "2024-06-25"
 ### Lea Weißschuh
 | Datum       | Tätigkeit                          | Stunden  |
 |-------------|------------------------------------|----------|
-| 2024-06-23  | Google Tabelle erstellen, EL und NL| 3        |
-| 2024-06-24  | NL überarbeiten                    | 4        |
+| 2024-06-23  | Google Tabelle erstellen, EL und NL| 2        |
+| 2024-06-24  | NL überarbeiten                    | 3        |
 | 2024-06-27  | Präsentation erstellen             | 2        |
 |             |                                    |          |
